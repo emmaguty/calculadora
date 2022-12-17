@@ -1,3 +1,5 @@
+import '../stylesheet/Boton.css';
+
 function Boton (props) {
 
     // Funcion para saber si es operador
@@ -7,7 +9,7 @@ function Boton (props) {
 
     return (
         <div 
-        className={`boton-contenedor ${esOperador(props.children) ? 'Operador' : ''}`.trimEnd()} >
+        className={`boton-contenedor ${esOperador(props.children) ? 'operador' : ''}`.trimEnd()} >
             {props.children}
         </div>
     )
