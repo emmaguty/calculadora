@@ -1,6 +1,9 @@
 import './App.css';
 import gartLogo from './images/gartLogo.png';
 
+//Importar el componente Boton
+import Boton from './components/Boton';
+
 function App() {
   return (
     <div className="App">
@@ -11,7 +14,13 @@ function App() {
         className='gart-logo' />
       </div>
       <div className='contenedor-calculadora'>
-        
+        <div className='fila'>
+          <Boton>1</Boton>
+        </div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>        
       </div>
     </div>
   );
