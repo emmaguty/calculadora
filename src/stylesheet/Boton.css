@@ -15,7 +15,17 @@
     flex: 1 1;
 }
 
+.boton-contenedor:hover {
+    background-color: #5a01a7;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+
 .operador {
     background-color: #00471b;
+}
+
+.operador:hover {
+    background-color: orangered;
 }
 
