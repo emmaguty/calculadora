@@ -10,6 +10,9 @@ function App() {
         alt="gart logo"
         className='gart-logo' />
       </div>
+      <div className='contenedor-calculadora'>
+        
+      </div>
     </div>
   );
 }
