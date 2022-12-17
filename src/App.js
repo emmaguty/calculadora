@@ -4,6 +4,9 @@ import gartLogo from './images/gartLogo.png';
 //Importar el componente Boton
 import Boton from './components/Boton';
 
+//Importar el componente pantalla
+import Pantalla from './components/Pantalla'
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,7 @@ function App() {
         className='gart-logo' />
       </div>
       <div className='contenedor-calculadora'>
+        <Pantalla />
         <div className='fila'>
           <Boton>1</Boton>
           <Boton>2</Boton>
