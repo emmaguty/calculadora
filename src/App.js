@@ -1,7 +1,11 @@
 import './App.css';
 import gartLogo from './images/gartLogo.png';
+
+//Importar los componentes del boton y la panttalla
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
+
+import BotonClear from './components/Clear';
 
 function App() {
   return (
@@ -39,6 +43,7 @@ function App() {
           <Boton>/</Boton>
         </div>
         <div className='fila'>
+          <BotonClear>Borrar</BotonClear>
         </div>
       </div>
     </div>
